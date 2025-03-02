@@ -148,6 +148,9 @@ h3,
 }
 
 .h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-style: italic;
   font-size: var(--h1);
 }
 
