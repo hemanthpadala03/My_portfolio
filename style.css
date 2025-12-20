@@ -96,6 +96,15 @@ html {
     font-size: 80%;
   }
 }
+.article-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #a1a1aa;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
 
 body {
   font-size: var(--text-medium);
