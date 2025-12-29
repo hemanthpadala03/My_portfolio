@@ -1284,12 +1284,12 @@ input:checked {
 
 /* Image fixes */
 .hero-img {
-  width: 222px;
-  height: 222px;
+  width: 422px;
+  height: 422px;
   /* object-fit: contain; */
   mix-blend-mode: lighten;
   /* IMPORTANT: remove any background */
   background: transparent;
-  border-radius: 50%;
+  border-radius: 10%;
   box-shadow: none;
 }
