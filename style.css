@@ -1284,9 +1284,9 @@ input:checked {
 
 /* Image fixes */
 .hero-img {
-  width: 122px;
-  height: 122px;
-  object-fit: contain;
+  width: 222px;
+  height: 222px;
+  /* object-fit: contain; */
   mix-blend-mode: lighten;
   /* IMPORTANT: remove any background */
   background: transparent;
