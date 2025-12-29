@@ -1266,19 +1266,30 @@ input:checked {
 .hero-name {
   display: flex;
   align-items: center;
-  gap: 20px; /* space between image and name */
+  gap: 24px;
 }
 
+/* Reduce overall heading size */
+.hero-title {
+  font-size: 2.6rem;   /* reduce name size */
+  line-height: 1.1;
+}
+
+.hero-role {
+  font-size: 2rem;     /* reduce role size */
+  font-weight: 600;
+  display: block;
+  margin-top: 6px;
+}
+
+/* Image fixes */
 .hero-img {
-  width: 80px;          /* adjust as needed */
-  height: 80px;
-  border-radius: 50%;   /* circular image */
-  object-fit: cover;
-  border: 2px solid rgba(255, 255, 255, 0.2);
-}
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
 
-/* Optional: fine-tune text spacing */
-.hero-name .h1 {
-  margin: 0;
+  /* IMPORTANT: remove any background */
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: none;
 }
-
