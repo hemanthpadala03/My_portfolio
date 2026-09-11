@@ -1,16 +1,3 @@
-<!--
-  Greetings!
-
-  This delightful template has been meticulously crafted and brought to life by Syed Mohsin. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
--->
-
-<!-- For any inquiries or collaborations reach out to me at devsyedmohsin@gmail.com -->
-
-<!--
-  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
--->
-
-
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -23,21 +10,21 @@
 
     <meta
       name="description"
-      content="Welcome to my portfolio website. I am Hemanth Padala, an AI researcher. Explore my projects, research, and contact me for collaborations."
+      content="Portfolio of Hemanth Padala — AI researcher and B.Tech student at VIT Chennai. Published research in computer vision and remote sensing, ML internship at Samsung PRISM, and applied GenAI/RAG projects."
     />
 
     <!-- Google / Search Engine Tags -->
 <meta itemprop="name" content="Hemanth Padala's Portfolio">
-<meta itemprop="description" content="Welcome to my portfolio website. I am Hemanth Padala, an AI researcher. Explore my projects, research, and contact me for collaborations.">
+<meta itemprop="description" content="Portfolio of Hemanth Padala — AI researcher and B.Tech student at VIT Chennai. Published research in computer vision and remote sensing, ML internship at Samsung PRISM, and applied GenAI/RAG projects.">
 
 <!-- Reference screenshot of updated site's header in place of content -->
 <meta itemprop="image" content="assets/images/sharing-card.png">
 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:url" content="https://hemanthpadala.vercel.app">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Hemanth Padala's Portfolio">
-<meta property="og:description" content="Welcome to my portfolio website. I am Hemanth Padala, an AI researcher. Explore my projects, research, and contact me for collaborations.">
+<meta property="og:description" content="Portfolio of Hemanth Padala — AI researcher and B.Tech student at VIT Chennai. Published research in computer vision and remote sensing, ML internship at Samsung PRISM, and applied GenAI/RAG projects.">
 
 <!-- Reference screenshot of updated site's header in content -->
 <meta property="og:image" content="assets/images/sharing-card.png">
@@ -47,14 +34,12 @@
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Hemanth padala's Portfolio">
-<meta name="twitter:description" content="Welcome to my portfolio website. I am Hemanth Padala, an AI researcher. Explore my projects, research, and contact me for collaborations.">
+<meta name="twitter:title" content="Hemanth Padala's Portfolio">
+<meta name="twitter:description" content="Portfolio of Hemanth Padala — AI researcher and B.Tech student at VIT Chennai. Published research in computer vision and remote sensing, ML internship at Samsung PRISM, and applied GenAI/RAG projects.">
 
 <!-- Reference screenshot of updated site's header in content -->
 <meta name="twitter:image" content="assets/images/sharing-card.png">
 
-
-<!-- Update favicon href attribute with image of yourself -->
     <link
       rel="shortcut icon"
       href="assets/images/favicons1.png"
@@ -96,44 +81,45 @@
         <ol class="nav-items">
           <li class="nav-item"><a href="#">Home</a></li>
           <li class="nav-item"><a href="#blog">My Research</a></li>
-          <!--<li class="nav-item"><a href="#work">My Work</a></li>-->
+          <li class="nav-item"><a href="#work">My Work</a></li>
+          <li class="nav-item"><a href="#experience">Experience</a></li>
           <li class="nav-item"><a href="#skills">My Skills</a></li>
           <li class="nav-item">
             <a href="#contact" data-focused="last-focused">Contact Me</a>
           </li>
-          <li class="nav-item"><a href="assets/AI Resume.pdf">Resume</a></li>
-          <!-- <li><a href="assets/AI Resume.pdf" target="_blank">Resume</a></li> -->
+          <li class="nav-item"><a href="assets/AI Resume.pdf" target="_blank">Resume</a></li>
         </ol>
       </nav>
 
       <div class="container">
         <div class="header-textbox">
-          <!-- Replace with your name and job title -->
           <div class="hero-name">
+            <img
+              src="assets/images/My_image.png"
+              alt="Hemanth Padala"
+              class="hero-img"
+            />
             <h1 class="h1">
               <span>Hey, I'm Hemanth Padala</span>
               <span>AI Researcher</span>
             </h1>
-            <!-- <img 
-              src="assets/images/My_image.png" 
-              alt="Hemanth Padala"
-              class="hero-img"
-            /> -->
           </div>
 
-          <!-- Add a small introductory paragraph about yourself -->
           <p class="header-text">
-            An AI researcher developing innovative algorithms to solve real-world problems using machine learning and deep learning.
+            B.Tech student at VIT Chennai building applied AI systems — from
+            published computer vision research to GenAI/RAG pipelines and
+            speech ML, with hands-on internship experience at Samsung PRISM.
           </p>
-          <!-- <a class="header-btns" href="assets/AI Resume.pdf" target="_blank">Download Resume</a> -->
 
           <div class="header-btns">
             <a href="#contact" class="btn btn-cta">Hire me</a>
-            <a href="assets/AI Resume.pdf" class="btn btn-secondary">Download Resume</a>
+            <a href="assets/AI Resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
           </div>
         </div>
       </div>
     </header>
+
+    <main>
 
     <section class="article">
       <div class="container">
@@ -263,13 +249,162 @@
       </div>
     </section>
 
-    
+    <section class="work">
+      <div class="container">
+        <h2 class="h2" id="work">Selected Projects</h2>
 
-      
-      <!-- I write blog posts on dev.to at https://dev.to/devsyedmohsin. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. -->
+        <div class="article-boxes">
 
-      
-      <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <span class="article-tag">GenAI / RAG</span>
+                <h3 class="h4">
+                  RAG Agent for Large-Scale Policy Documents (10K+ Docs)
+                </h3>
+                <p class="article-text">
+                  Production-style Retrieval-Augmented Generation system using FAISS and
+                  ChromaDB with adaptive chunking and hybrid embeddings, achieving 92%
+                  retrieval accuracy for grounded LLM responses over large document corpora.
+                </p>
+              </div>
+              <div class="article-info">
+                <a
+                  href="https://github.com/hemanthpadala03/RAG-policy-Assistant-"
+                  class="link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  View project →
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <span class="article-tag">GenAI / RAG</span>
+                <h3 class="h4">
+                  Federal Register RAG Agent
+                </h3>
+                <p class="article-text">
+                  An AI chat agent over Federal Register documents, running a local LLM
+                  (Ollama + Llama2) with an automated daily data pipeline, agency
+                  filtering, and natural-language search across government regulations.
+                </p>
+              </div>
+              <div class="article-info">
+                <a
+                  href="https://github.com/hemanthpadala03/Federal-Register-RAG-Agent"
+                  class="link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  View project →
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <span class="article-tag">Speech AI</span>
+                <h3 class="h4">
+                  Multilingual Voice AI Assistant
+                </h3>
+                <p class="article-text">
+                  A fully local voice pipeline (Whisper STT → MarianMT translation →
+                  local LLM → TTS) built to study how transcription and translation
+                  errors propagate into hallucinations in low-resource, code-switched
+                  speech settings.
+                </p>
+              </div>
+              <div class="article-info">
+                <a
+                  href="https://github.com/hemanthpadala03/Voice-AI-Assistant-"
+                  class="link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  View project →
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <span class="article-tag">Data Analytics</span>
+                <h3 class="h4">
+                  SQL Revenue Diagnostics & RFM Customer Segmentation
+                </h3>
+                <p class="article-text">
+                  An end-to-end SQL analytics workflow performing revenue diagnostics,
+                  churn root-cause analysis, and RFM customer segmentation on
+                  transactional retail data.
+                </p>
+              </div>
+              <div class="article-info">
+                <a
+                  href="https://github.com/hemanthpadala03/SQL-Revenue-Diagnostics-RFM-Customer-Segmentation"
+                  class="link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  View project →
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="container">
+        <h2 class="h2" id="experience">Experience &amp; Achievements</h2>
+
+        <div class="experience-grid">
+          <div class="experience-col">
+            <h3 class="h4">Experience</h3>
+            <div class="experience-item">
+              <div class="experience-item-header">
+                <h4 class="experience-role">Machine Learning Intern — Samsung PRISM Program</h4>
+                <span class="experience-date">Sept 2024 – June 2025</span>
+              </div>
+              <p class="experience-sub">Remote, Bengaluru · Speech Super-Resolution for ASR Systems</p>
+              <ul class="experience-list">
+                <li>Developed an ECA-enhanced U-Net for speech super-resolution, achieving a 10.2% reduction in Word Error Rate (WER) on LibriSpeech.</li>
+                <li>Built end-to-end training, evaluation, and ablation pipelines for audio ML models with statistical comparisons.</li>
+                <li>Improved experimental reliability by 15% through optimized data pipelines and evaluation protocols.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-col">
+            <h3 class="h4">Achievements</h3>
+            <ul class="achievements-list">
+              <li>
+                <strong>Amazon ML Challenge 2025</strong> — Ranked 94 / 7000+ teams (Top 1.5%), improved SMAE from 47 → 43.7.
+              </li>
+              <li>
+                <strong>Intel AI Engineer Professional Certificate</strong> (Coursera) — Applied AI, ML Engineering.
+              </li>
+              <li>
+                <strong>Core Management Member</strong>, Google Developer Student Clubs, VIT Chennai.
+              </li>
+              <li>
+                <strong>3 peer-reviewed publications</strong> in IEEE and Taylor &amp; Francis venues (see Research above).
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
       <section class="skills">
         <div class="container">
@@ -285,130 +420,9 @@
                  <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
                  <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
                  <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
-            </figure>
           </div>
         </div>
       </section>
-
-      <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
-      <!--
-      <section>
-        <h2 class="h2">Testimonials</h2>
-        <div class="container">
-          <ol class="testimonials">
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-                Working with Hemanth was a great experience. His drive for clean aesthetics and his open communication style helped us collaborate closely on the solution.
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src="assets/images/testimonials/rich-harris.png"
-                  alt="Rich Harris"
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Harris Kareem</h3>
-                  <p class="testimonial-author-job">Developer @Outlets</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-                Hemanth is a fantastic UI/UX designer and developer with a keen sense for marketing, and lead generation. He's the only designer I know who also has a deep understanding for code and front-end development.
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src="assets/images/testimonials/frank-mcsherry.webp"
-                  alt="Andrew Mead"
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">
-                   Andrew Mead
-                  </h3>
-                  <p class="testimonial-author-job">Chief Scientist @Logos
-                  </p>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-             
-                Talented artist, experienced with various
-                media and can make any project you are working on look good. He is
-                easy to work with and is a self starter. I would work with Syed
-                again.
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src="assets/images/testimonials/brian-hirsh.png"
-                  alt="Brian Hirsh"
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Brian Hirsh</h3>
-                  <p class="testimonial-author-job">Head @Zero-in</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-                Hemanth is a true professional with amazing talent. He is a creative
-                thinker, has his finger on the pulse of whats to come, and
-                absolutely one of the quickest and best problem solvers I have
-                ever met.
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src="assets/images/testimonials/adam.png"
-                  alt="Adam Argalye"
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Adam Argalye</h3>
-                  <p class="testimonial-author-job">SWE @Google</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-               Hemanth is one of my favourite people to work with. He's my go-to colleague when trouble shooting any new technique or technology because she understands how to tackle unknown problems with gumption. 
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src="assets/images/testimonials/val-head.png"
-                  alt="Val Head"
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Val Head</h3>
-                  <p class="testimonial-author-job">CEO @Engines</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li class="testimonial">
-              <blockquote class="testimonial-text">
-                Hemanth is a talented artist. He is very experienced with various
-                media and can make any project you are working on look good. He is
-                easy to work with and is a self starter. I would work with Syed
-                again.
-              </blockquote>
-              <figure class="testimonial-author">
-                <img
-                  src="assets/images/testimonials/tim-satterwhite.webp"
-                  alt="Gary Simon"
-                  loading="lazy"
-                />
-                <figcaption>
-                  <h3 class="testimonial-author-name">Gary Simon</h3>
-                  <p class="testimonial-author-job">A11y Advocate @W3C</p>
-                </figcaption>
-              </figure>
-            </li>
-          </ol>
-        </div>
-      </section>
-    -->
 
       <section class="contact">
         <div class="container">
@@ -423,17 +437,13 @@
               <p class="contact-text">
                 As an AI researcher, I develop intelligent systems and algorithms, with a strong focus on innovation and solving real-world challenges. I enjoy exploring new technologies and pushing the boundaries of artificial intelligence.
               </p>
-              <p class="contact-text">
-              </p>
-              <!-- Replace src with your signatures and name -->
-              <!--<img
-                src="assets/images/signatures.png"
-                alt="Syed Mohsin"
-                class="signatures"
-                loading="lazy"
-              />-->
             </div>
-            <form action="#" class="contact-form" netlify>
+            <form
+              action="mailto:padala.hemanth2022@vitstudent.ac.in"
+              method="POST"
+              enctype="text/plain"
+              class="contact-form"
+            >
               <div class="form-field">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" required />
@@ -462,7 +472,6 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
-          <!-- Update href and src attributes -->
           <nav>
             <ol class="footer-links">
               <li class="footer-link">
@@ -474,11 +483,11 @@
                 /></a>
               </li>
               <li class="footer-link">
-                <a title="Codepen" href="https://github.com/hemanthpadala03" target="_blank" rel="noopener"
+                <a title="Email" href="mailto:padala.hemanth2022@vitstudent.ac.in"
                   ><img
                     loading="lazy"
-                    src="assets/images/social-links/codepen.svg"
-                    alt="Codepen"
+                    src="assets/images/social-links/mail.svg"
+                    alt="Email"
                 /></a>
               </li>
               <li class="footer-link">
@@ -489,19 +498,11 @@
                     alt="Linkedin"
                 /></a>
               </li>
-<!--               <li class="footer-link">
-                <a title="Twitter" href="https://github.com/devsyedmohsin" target="_blank" rel="noopener"
-                  ><img
-                    loading="lazy"
-                    src="assets/images/social-links/twitter.svg"
-                    alt="Twitter"
-                /></a>
-              </li> -->
             </ol>
           </nav>
-          <!--<p class="footer-text">
-            &copy; <span>2024</span> - Template designed & developed by <a target="_blank" rel="noopener" href="https://github.com/devsyedmohsin">Syed Mohsin.</a>
-          </p>-->
+          <p class="footer-text">
+            &copy; <span>2026</span> Hemanth Padala
+          </p>
           <label class="theme-switch" for="theme-switch">
             <span>Dark Theme</span>
             <input type="checkbox" id="theme-switch" role="switch"/>
